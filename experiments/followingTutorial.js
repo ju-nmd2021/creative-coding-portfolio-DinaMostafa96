@@ -54,4 +54,3 @@ function draw() {
   velocity.limit(10);
   position.add(velocity);
 }
-}

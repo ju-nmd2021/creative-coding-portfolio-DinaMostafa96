@@ -33,5 +33,12 @@
     "description": "expermenting with shapes and colors and how random colors combination can be fun.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
+  },
+  {
+    "file": "experiments/lfollowingTutorial.js",
+    "name": "Abstract art",
+    "description": "expermenting with shapes and colors and how random colors combination can be fun.",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/pixelkind"
   }
 ]
