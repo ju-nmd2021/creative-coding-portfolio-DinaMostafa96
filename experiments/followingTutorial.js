@@ -1,9 +1,5 @@
 // INSPO: https://www.youtube.com/watch?v=vmhRlDyPHMQ&list=PLwUlLzAS3RYow0T9ZXB0IomwB-DyBRTfm
 
-let position;
-let velocity;
-let acceleration;
-
 function setup() {
   createCanvas(innerWidth, innerHeight, WEBGL);
   position = createVector(100, 100);

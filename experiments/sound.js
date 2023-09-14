@@ -15,8 +15,8 @@ window.addEventListener("load", () => {
 });
 
 window.addEventListener("click", () => {
-  // player.start();
-  oscillator.start();
+  player.start();
+  // oscillator.start();
 });
 
 function setup() {
@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 255, 255);
+  background(255, 0, 0, 7);
   let value = analyser.getValue();
   for (let i = 0; i < value.length; i++) {
     let v = map(value[i], -100, 0, height, 0);
