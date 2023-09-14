@@ -3,7 +3,7 @@ let oscillator;
 let analyser;
 
 window.addEventListener("load", () => {
-  player = new Tone.Player("path/to/your/file.mp3");
+  player = new Tone.Player("assets/sound.mp3");
   oscillator = new Tone.Oscillator(440, "sine").toDestination();
 
   analyser = new Tone.Analyser("fft", 4096);
