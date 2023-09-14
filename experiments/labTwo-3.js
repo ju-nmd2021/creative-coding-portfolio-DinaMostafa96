@@ -18,8 +18,7 @@ class Cell {
     } else {
       fill(0, 0, 0);
     }
-    // rect(this.x * this.size, this.y * this.size, this.size, this.size);
-    triangle(this.x, this.y, this.x, this.y, this.x, this.y);
+    rect(this.x * this.size, this.y * this.size, this.size, this.size);
   }
 }
 

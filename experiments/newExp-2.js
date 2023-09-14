@@ -48,7 +48,6 @@ class Agent {
 
   draw() {
     push();
-
     stroke(9, 0, 0, 6);
     strokeWeight(2);
     line(
@@ -57,6 +56,7 @@ class Agent {
       this.position.x,
       this.position.y
     );
+
     pop();
   }
 }
