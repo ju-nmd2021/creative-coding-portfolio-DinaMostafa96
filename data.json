@@ -9,34 +9,34 @@
   {
     "file": "experiments/myExample.js",
     "name": "Abstract art",
-    "description": "expermenting with shapes and colors and how random colors combination can be fun.",
+    "description": "My first example to expermenting with shapes and colors and how random colors combination can be fun.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/labTwo.js",
     "name": "Abstract art",
-    "description": "expermenting with shapes and colors and how random colors combination can be fun.",
+    "description": "in lab two i kept expermenting with shapes and colors and some movement and how random colors combination can be fun.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/labTwo-2.js",
-    "name": "Abstract art",
-    "description": "expermenting with shapes and colors and how random colors combination can be fun.",
+    "name": "Boid",
+    "description": "expermenting with Boid and colors and how random colors combination can be fun.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/labTwo-3.js",
-    "name": "Abstract art",
+    "name": "zoom-in game of life",
     "description": "expermenting with shapes and colors and how random colors combination can be fun.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
   {
     "file": "experiments/lfollowingTutorial.js",
-    "name": "Abstract art",
+    "name": "Abstract art 3D",
     "description": "expermenting with shapes and colors and how random colors combination can be fun.",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
