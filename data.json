@@ -51,7 +51,14 @@
   {
     "file": "experiments/sound.js",
     "name": "sound",
-    "description": "expermenting with shapes and colors and how random colors combination can be fun.",
+    "description": "expermenting with sound and music",
+    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
+    "github": "https://www.github.com/pixelkind"
+  },
+  {
+    "file": "experiments/sound-2.js",
+    "name": "sound two",
+    "description": "expermenting with sound and music",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   }
