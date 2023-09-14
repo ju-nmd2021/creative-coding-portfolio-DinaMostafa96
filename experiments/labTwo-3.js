@@ -14,7 +14,7 @@ class Cell {
 
   draw() {
     if (this.state == 0) {
-      fill(255, 255, 255);
+      fill(255, 55);
     } else {
       fill(0, 0, 0);
     }
