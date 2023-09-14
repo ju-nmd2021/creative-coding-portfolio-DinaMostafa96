@@ -1,3 +1,5 @@
+// INSPO: https://www.youtube.com/watch?v=vmhRlDyPHMQ&list=PLwUlLzAS3RYow0T9ZXB0IomwB-DyBRTfm
+
 let position;
 let velocity;
 let acceleration;
@@ -20,14 +22,14 @@ function shape() {
 
     stroke(r, g, b);
 
-    rotateY(frameCount / 20);
+    rotateZ(frameCount / 20);
 
     beginShape();
-    for (let j = 0; j < 360; j += 90) {
+    for (let j = 0; j < 360; j += 80) {
       let rad = i * 3;
-      let x = rad * cos(j) + mouseX / 30;
-      let y = rad * sin(j) + mouseY / 30;
-      let z = sin(frameCount * 2 + i * 5) * 50 + mouseY / 30; // Updated Z-coordinate based on mouseY
+      let x = rad * cos(j);
+      let y = rad * sin(j) + mouseY;
+      let z = sin(frameCount * 2 + i * 5) * 50;
 
       vertex(x, y, z);
     }
@@ -38,19 +40,4 @@ function shape() {
 function draw() {
   background(30);
   shape();
-  if (position.x > width || position.x < 0) {
-    velocity.x *= -1;
-  }
-  if (position.y > height || position.y < 0) {
-    velocity.y *= -1;
-  }
-
-  const mouse = createVector(mouseX, mouseY);
-  acceleration = p5.Vector.sub(mouse, position);
-  acceleration.normalize();
-  acceleration.mult(0.5);
-  // Add the speed to the ball
-  velocity.add(acceleration);
-  velocity.limit(10);
-  position.add(velocity);
 }
