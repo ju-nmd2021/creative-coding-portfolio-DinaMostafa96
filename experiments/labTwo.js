@@ -23,7 +23,7 @@ class Element {
   }
 
   draw() {
-    fill(255, 255, 255, 1);
+    fill(0, 0, 255, 1);
     noStroke();
     ellipse(this.position.x, this.position.y, this.size);
   }
