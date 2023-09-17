@@ -21,7 +21,7 @@ function shape() {
     rotateZ(frameCount / 20);
 
     beginShape();
-    for (let j = 0; j < 360; j += 80) {
+    for (let j = 0; j < 360; j += 90) {
       let rad = i * 3;
       let x = rad * cos(j);
       let y = rad * sin(j) + mouseY;
