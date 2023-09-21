@@ -63,11 +63,10 @@
     "github": "https://www.github.com/pixelkind"
   },
   {
-    "file": "mandelaArt.js",
+    "file": "experiments/mandelaArt.js",
     "name": "mandelaArt",
     "description": "expermenting with sound and music",
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   }
-
 ]

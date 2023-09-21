@@ -111,7 +111,12 @@ function draw() {
     currentIndexY += (indexY - currentIndexY) / 5;
     currentThumbY += (thumbY - currentThumbY) / 5;
 
-    let distance = dist(currentThumbX, currentThumbY, currentIndexX, currentIndexY);
+    let distance = dist(
+      currentThumbX,
+      currentThumbY,
+      currentIndexX,
+      currentIndexY
+    );
 
     // let smoothDistance =
 
