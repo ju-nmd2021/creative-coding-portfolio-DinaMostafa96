@@ -62,13 +62,7 @@
     "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
     "github": "https://www.github.com/pixelkind"
   },
-  {
-    "file": "experiments/mandelaArt.js",
-    "name": "mandelaArt",
-    "description": "expermenting with sound and music",
-    "background": "Positions the work in a context by presenting related work and introducing aesthetic or scientific theories related to the work.",
-    "github": "https://www.github.com/pixelkind"
-  },
+
   {
     "file": "experiments/sound2Variation.js",
     "name": "sound2Variation",
