@@ -25,6 +25,7 @@ function setup() {
   position = createVector(100, 100);
   velocity = createVector(5, 8);
   angleMode(DEGREES);
+  frameRate(30);
 }
 
 function shape() {
