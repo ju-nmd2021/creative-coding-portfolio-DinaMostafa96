@@ -9,7 +9,7 @@ function setup() {
   background(0);
   angleMode(DEGREES);
   colorMode(HSB, 360, 100, 100, 100); // sets the color mode to HSB with specific ranges.
-  frameRate(1);
+  frameRate(5);
 }
 
 function mandalaArt() {
